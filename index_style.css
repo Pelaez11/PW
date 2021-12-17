@@ -1,0 +1,478 @@
+/* Reseteo de margen de toda la página */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+  /*********** ENCABEZADO **********/
+/* Tamaño fondo de encabezado */
+.img_enc{
+  width: 1345px;
+  height: 400px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+/* Tamaño del logo */
+figure{
+  margin-top: -400px;
+  margin-left: 400px;
+}
+
+/* Menú del encabezado */
+div#MenuC{
+  width: 100px;
+  height: 40px;
+  margin-top: 15px;
+  margin-left: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+/* Menú del encabezado */
+div#Promo{
+  background-color: skyblue;
+  width: 150px;
+  height: 40px;
+  margin-top: -40px;
+  margin-left: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+/* Menú del encabezado */
+div#Gal{
+  background-color: skyblue;
+  width: 145px;
+  height: 40px;
+  margin-top: -40px;
+  margin-left: 925px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-radius: 102px 102px 102px 102px;
+}
+/* Menú del encabezado */
+h2{
+  margin: 0px;
+  font-size: 30px;
+  color: white;
+  font-style: oblique;
+  font-family: inherit;
+}
+/* Menú del encabezado */
+h2:hover{
+  font-size: 40px;
+  color: pink;
+} /* Menú del encabezado */
+
+/*********** ENCABEZADO **********/
+
+/*********** CUERPO **********/
+
+ /*div#IntroM{
+  background-color: orange;
+  width: 850px;
+  height: 250px;
+  margin-top: 0px;
+  border-radius: 50px 50px 50px 50px;
+  margin-left: 10px;
+}*/
+
+/* Titulo comida */
+.Tit_Comida{
+  margin-left: 325px;
+  font-size: 35px;
+  color: white;
+  font-style: oblique;
+  font-family: inherit;
+  margin-top: -360px;
+  margin-left: 600px
+}
+
+/* Imagen de fondo comida */
+.fondC{
+  width: 1340px;
+  height: 400px;
+  margin-top: 26px;
+  border-radius: 5px 5px 5px 5px;
+  margin-left: 5px;
+}
+
+/* Imagen de comida */
+.img_C{
+  width: 350px;
+  height: 250px;
+  margin-top: -15px;
+  border-radius: 30px 30px 30px 30px;
+  margin-left: 100px;
+  background-color: white;
+  padding: 5px;
+}
+
+/* Posición del texto 1 */
+.cuadro_txt1{
+  width: 350px;
+  height: 500px;
+  margin-left: 800px;
+  margin-top: -230px;
+}
+
+/* Diseño de descripción de comida */
+.des_com{
+  color: white;
+  width: 500px;
+  height: 100px;
+  font-size: 30px;
+  margin-left: -250px;
+  margin-top: -2px;
+  text-align: justify;
+}
+
+/*div#IntroP{
+  background-color: green;
+  width: 300px;
+  height: 250px;
+  margin-top: 10px;
+  border-radius: 50px 50px 50px 50px;
+  margin-left: 500px;
+}*/
+
+/* Titulo promociones */
+.Tit_Promo{
+  margin-left: 325px;
+  font-size: 35px;
+  color: white;
+  font-style: oblique;
+  font-family: inherit;
+  margin-top: -415px;
+  margin-left: 600px
+}
+
+/* Imagen de fondo promociones */
+.fondP{
+  width: 1340px;
+  height: 430px;
+  margin-top: -193px;
+  border-radius: 5px 5px 5px 5px;
+  margin-left: 5px;
+}
+
+/* Imagen de promociones */
+.img_P{
+  width: 280px;
+  height: 280px;
+  margin-top: 40px;
+  border-radius: 100px 100px 100px 100px;
+  margin-left: 850px;
+  background-color: white;
+  padding: -20px;
+}
+
+/* Posición del texto 2 */
+.cuadro_txt2{
+  width: 400px;
+  height: 510px;
+  margin-left: 770px;
+  margin-top: -380px;
+}
+
+/* Diseño de descripción promociones */
+.des_pro{
+  color: #ffffff;
+  width: 700px;
+  height: 100px;
+  font-size: 30px;
+  margin-left: -725px;
+  margin-top: 80px;
+  text-align: justify;
+}
+
+/*div#IntroE{
+  background-color: blue;
+  width: 300px;
+  height: 250px;
+  margin-top: 10px;
+  border-radius: 50px 50px 50px 50px;
+}*/
+
+/* Titulo eventos */
+.Tit_Eve{
+  margin-left: 325px;
+  font-size: 60px;
+  color: white;
+  font-style: oblique;
+  font-family: inherit;
+  margin-top: -465px;
+  margin-left: 780px
+}
+
+/* Imagen de fondo eventos */
+.fondEv{
+  width: 1340px;
+  height: 500px;
+  margin-top: -163px;
+  border-radius: 5px 5px 5px 5px;
+  margin-left: 5px;
+}
+
+/* Imagen de eventos */
+.img_E{
+  width: 300px;
+  height: 220px;
+  margin-top: 80px;
+  margin-left: 100px;
+  border-radius: 30px 30px 30px 30px;
+  background-color: white;
+  padding: 5px;
+}
+
+/* Posición del texto 3 */
+.cuadro_txt3{
+  width: 600px;
+  height: 500px;
+  margin-top: -300px;
+  margin-left: 400px;
+
+}
+
+/* Diseño de descripción eventos */
+.des_eve{
+  color: white;
+  width: 850px;
+  height: 200px;
+  font-size: 30px;
+  margin-left: 50px;
+  margin-top: 60px;
+  text-align: justify;
+}
+
+/*div#IntroG{
+  background-color: red;
+  width: 300px;
+  height: 250px;
+  margin-top: 10px;
+  border-radius: 50px 50px 50px 50px;
+  margin-left: 500px;
+}*/
+
+/* Titulo galeria */
+.Tit_G{
+  margin-left: 325px;
+  font-size: 50px;
+  color: white;
+  font-style: oblique;
+  font-family: inherit;
+  margin-top: -370px;
+  margin-left: 650px
+}
+
+/* Imagen de fondo galeria */
+.fondG{
+  width: 1340px;
+  height: 400px;
+  margin-top: -170px;
+  border-radius: 5px 5px 5px 5px;
+  margin-left: 5px;
+}
+
+/* Imagen de galeria */
+.img_G{
+  width: 325px;
+  height: 245px;
+  margin-top: 0px;
+  margin-left: 890px;
+  border-radius: 30px 30px 30px 30px;
+  background-color: white;
+  padding: 5px;
+}
+
+/* Posición del texto 4 */
+.cuadro_txt4{
+  width: 350px;
+  height: 500px;
+  margin-top: -250px;
+  margin-left: 150px;
+}
+
+/* Diseño de descripción galeria */
+.des_gal{
+  color: white;
+  width: 700px;
+  height: 200px;
+  font-size: 40px;
+  margin-left: 1px;
+  margin-top: -50px;
+  text-align: justify;
+}
+
+/*div#IntroN{
+  background-color: black;
+  width: 300px;
+  height: 250px;
+  margin-top: 10px;
+  border-radius: 50px 50px 50px 50px;
+}*/
+
+/* Titulo Conocenos */
+.Tit_N{
+  margin-left: 325px;
+  font-size: 50px;
+  color: white;
+  font-style: oblique;
+  font-family: inherit;
+  margin-top: -570px;
+  margin-left: 800px
+}
+
+/* Imagen de fondo conocenos */
+.fondN1{
+  width: 1340px;
+  height: 750px;
+  margin-top: -190px;
+  border-radius: 5px 5px 5px 5px;
+  margin-left: 5px;
+}
+
+.fondN2{
+  width: 1342px;
+  height: 550px;
+  margin-top: 250px;
+  border-radius: 5px 5px 5px 5px;
+  margin-left: -146px;
+}
+
+/* Imagen de conocenos */
+.img_N{
+  width: 350px;
+  height: 260px;
+  margin-top: 100px;
+  margin-left: 160px;
+  border-radius: 100px 100px 100px 100px;
+  background-color: white;
+  padding: 3px;
+}
+
+/* Posición del texto 5 */
+.cuadro_txt5{
+  width: 350px;
+  height: 200px;
+  margin-top: -10px;
+  margin-left: 150px;
+
+}
+
+/* Diseño de descripción conocenos */
+.des_nos{
+  color: white;
+  width: 700px;
+  height: 200px;
+  font-size: 30px;
+  margin-left: 459px;
+  margin-top: -320px;
+  text-align: justify;
+}
+
+.des_nos2{
+  color: white;
+  width: 650px;
+  height: 200px;
+  font-size: 30px;
+  margin-left: 480px;
+  margin-top: -390px;
+  text-align: justify;
+}
+
+/*div#Pie{
+  background-color: PINK;
+  width: 1335px;
+  height: 150px;
+}*/
+
+/* Imagen de fondo de datos*/
+.fondD{
+  width: 1345px;
+  height: 285px;
+  margin-top: 800px;
+  border-radius: 5px 5px 5px 5px;
+  margin-left: 2px;
+}
+
+/* Posición del texto datos */
+.cuadro_txtD{
+  width: 10px;
+  height: 10px;
+  margin-left: 0px;
+  margin-top: -250px;
+}
+
+/* Imagen de ubicación */
+.img_U{
+  width: 50px;
+  height: 50px;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+/* DIRECCIÓN */
+.direc{
+  color: white;
+  width: 389px;
+  height: 0px;
+  font-size: 20px;
+  margin-left: 100px;
+  margin-top: -40px;
+}
+
+/* Imagen de whatss */
+.img_W{
+  width: 35px;
+  height: 35px;
+  margin-top: -5px;
+  margin-left: 940px;
+}
+
+/* Contacto */
+.cont{
+  color: white;
+  width: 150px;
+  height: 0px;
+  font-size: 20px;
+  margin-left: 1000px;
+  margin-top: -30px;
+}
+
+/* Nombre de la alumna */
+.nomb{
+  color: white;
+  width: 260px;
+  height: 0px;
+  font-size: 25px;
+  margin-left: 550px;
+  margin-top: 50px;
+}
+
+/* Materia */
+.mat{
+  color: white;
+  width: 200px;
+  height: 0px;
+  font-size: 25px;
+  margin-left: 550px;
+  margin-top: -115px;
+}
+
+/* Imagen de violin */
+.img_V{
+  width: 140px;
+  height: 140px;
+  margin-top: 51px;
+  margin-left: 250px;
+}
+
+/* Imagen de trompeta */
+.img_T{
+  width: 137px;
+  height: 137px;
+  margin-top: -800px;
+  margin-left: 950px;
+}
